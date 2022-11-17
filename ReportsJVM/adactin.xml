@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.007337">
+    <testcase classname="Testing the adactin Webpage" name="validating the login page and home page" time="0.006567">
+        <skipped><![CDATA[Given user should be in the login page with credentials.....................undefined
+When user is entering the "vigneshRN" and "password"........................undefined
+And clicking login button...................................................undefined
+Then verifying the success message..........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Testing the adactin Webpage" name="Verifying the search hotel page" time="0.00077">
+        <skipped><![CDATA[Given user is on the home page of adactin...................................undefined
+When user is entering the "Sydney","Hotel Creek","Deluxe","2","09/09/2022","10/09/2022","3","1".undefined
+And user is clicking the search button......................................undefined
+And user is clicking continue in the next page..............................undefined
+]]></skipped>
+    </testcase>
+</testsuite>

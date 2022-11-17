@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "validating the login page and home page",
+        "description": "",
+        "id": "testing-the-adactin-webpage;validating-the-login-page-and-home-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user should be in the login page with credentials",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is entering the \"vigneshRN\" and \"password\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "clicking login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "verifying the success message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verifying the search hotel page",
+        "description": "",
+        "id": "testing-the-adactin-webpage;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user is on the home page of adactin",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user is entering the \"Sydney\",\"Hotel Creek\",\"Deluxe\",\"2\",\"09/09/2022\",\"10/09/2022\",\"3\",\"1\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user is clicking the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user is clicking continue in the next page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the adactin Webpage",
+    "description": "",
+    "id": "testing-the-adactin-webpage",
+    "keyword": "Feature",
+    "uri": "C:/Users/Singa/Downloads/Eclipse/workspace/CucumberSample/src/test/resources/Feature/Sample.Feature",
+    "tags": []
+  }
+]
